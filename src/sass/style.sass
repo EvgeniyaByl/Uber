@@ -394,11 +394,35 @@ footer
 		height: 7px
 		background: #1FBAD6
 	&_wrapper
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
 		padding-top: 32px
+	&_wrapper > div
+		width: 33%
+		&:nth-child(3)
+			display: flex
+			justify-content: flex-end
+	&_social
+		width: 160px
+		display: flex
+		justify-content: space-between
+		&_item
+			display: flex
+			justify-content: center
+			align-items: center
+			border-radius: 100%
+			width: 35px
+			height: 35px
+			background: #070716
+			margin: 0px 3px
+			text-decoration: none
+			i
+				color: #fff
+				
 	&_links
 		width: 390px
 		margin: 0 auto
-	
 		&_main
 			display: flex
 			justify-content: space-between
@@ -431,12 +455,12 @@ footer
 			text-decoration: none
 	&_mobile
 		display: flex
-		justify-content: flex-end
+		justify-content: center
 		align-items: center
 		margin-bottom: 70px
 
 		a
-			padding: 0px 2px
+			padding: 0px 4px
 
 
 
